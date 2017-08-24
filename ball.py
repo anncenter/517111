@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+ball animation from gif file
 """
 
 import sys
@@ -10,7 +8,7 @@ import pygame
 pygame.init()
 
 size=width, height=450, 280
-speed=[1,1]
+speed=[2,2]
 color=1,1,1
 screen=pygame.display.set_mode(size)
 
